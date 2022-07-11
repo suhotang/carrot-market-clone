@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
+import { Button } from "@mui/material";
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <h1>캐럿마켓 로그인</h1>
+        <Button variant="text">Text</Button>
         <Link href="/">
           <a>돌아가기</a>
         </Link>
